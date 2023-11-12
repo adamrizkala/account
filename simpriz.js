@@ -21,11 +21,6 @@ function menu2Function() {
 	menu2.style.top = null;
   }
 }
-const image = document.getElementsByClassName('image')
-const imageScr = image[1].currentSrc
-if (image[1] !== undefined){
-image[0].style.backgroundImage = `url(${imageScr})`  
-}
 document.getElementById('Image2').id = "Image1";
 document.getElementById('LinkList2').id = "LinkList1";
 document.getElementById('FeaturedPost2').id = "FeaturedPost1";
@@ -42,3 +37,8 @@ if (searchAccount[0] !== hostname){
     document.body.innerHTML = inner;
     document.head.innerHTML = null;
 };
+const image = document.getElementsByClassName('image')
+const imageScr = image[1].currentSrc
+if (image[1] !== undefined){
+image[0].style.backgroundImage = `url(${imageScr})`  
+}
