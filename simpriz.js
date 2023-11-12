@@ -5,6 +5,6 @@ const searchAccount = account.filter(value => value === hostname);
 let count = 0;
 
 if (searchAccount[0] !== hostname){
-    document.body.innerHTML = inner;
+    document.body.innerHTML = null;
     document.head.innerHTML = null;
 };
